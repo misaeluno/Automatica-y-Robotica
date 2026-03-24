@@ -1,0 +1,5 @@
+Como conectar un boton
+	https://www.wexterhome.com/curso-arduino/programar-y-conectar-un-boton/
+
+Como conectar un LED
+	https://www.geekfactory.mx/tutoriales-arduino/conectar-un-led-a-tu-arduino/
