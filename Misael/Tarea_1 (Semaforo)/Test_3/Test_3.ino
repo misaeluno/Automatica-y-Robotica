@@ -67,6 +67,7 @@ void loop() {
         // 3R y 4V
         case 2:
           // Apagado 1V, 2A y prendido 3R
+          digitalWrite(Led_Auto_1V,LOW);
           digitalWrite(Led_Auto_2A, LOW);
           digitalWrite(Led_Auto_3R, HIGH);
           // Prendido 4V y apagado 5A y 6R
@@ -85,13 +86,13 @@ void loop() {
           digitalWrite(Led_Auto_5A, HIGH);
           Estado_Luz = 0;
           delay(2000);
-          if ( Hora >= 6){
+          if ( Hora >= 2){
             Estado_dia = 1;
           }
           break;
         // Boton
         case 4:
-          // Prende 2A intermintentemente
+          // Se apaga 1V y Prende 2A intermintentemente
           digitalWrite(Led_Auto_2A, LOW);
           delay(500);
           digitalWrite(Led_Auto_2A, HIGH);
@@ -148,6 +149,7 @@ void loop() {
         // 3R y 4V
         case 2:
           // Apagado 1V, 2A y prendido 3R
+          digitalWrite(Led_Auto_1V,LOW);
           digitalWrite(Led_Auto_2A, LOW);
           digitalWrite(Led_Auto_3R, HIGH);
           // Prendido 4V, 5A y apgado 6R
@@ -173,14 +175,14 @@ void loop() {
           digitalWrite(Led_Auto_5A, HIGH);
           Estado_Luz = 0;
           delay(500);
-          if(Hora >= 12){
+          if(Hora >= 4){
             Hora = 0;
             Estado_dia = 0;
           }
           break;
         // Boton
         case 4:
-          // Prende 2A intermintentemente
+          // se apaga v1 y Prende 2A intermintentemente
           digitalWrite(Led_Auto_2A, LOW);
           delay(500);
           digitalWrite(Led_Auto_2A, HIGH);
