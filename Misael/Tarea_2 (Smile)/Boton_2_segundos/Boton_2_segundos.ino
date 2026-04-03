@@ -4,6 +4,7 @@ const int led   = 4;
 bool estadoBoton = false;
 unsigned long tiempoInicio = 0;
 
+
 void setup() {
   pinMode(boton, INPUT);
   pinMode(led, OUTPUT);
