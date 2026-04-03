@@ -25,6 +25,64 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   if (Hora==0){
+// -Parpadeo por 2 segundos --
+    digitalWrite(Led_1, HIGH);
+    digitalWrite(Led_2, HIGH);
+    digitalWrite(Led_3, HIGH);
+    digitalWrite(Led_4, HIGH);
+    digitalWrite(Led_5, HIGH);
+    digitalWrite(Led_6, HIGH);
+    delay(250);
+    digitalWrite(Led_1, LOW);
+    digitalWrite(Led_2, LOW);
+    digitalWrite(Led_3, LOW);
+    digitalWrite(Led_4, LOW);
+    digitalWrite(Led_5, LOW);
+    digitalWrite(Led_6, LOW);
+    delay(250);
+    digitalWrite(Led_1, HIGH);
+    digitalWrite(Led_2, HIGH);
+    digitalWrite(Led_3, HIGH);
+    digitalWrite(Led_4, HIGH);
+    digitalWrite(Led_5, HIGH);
+    digitalWrite(Led_6, HIGH);
+    delay(250);
+    digitalWrite(Led_1, LOW);
+    digitalWrite(Led_2, LOW);
+    digitalWrite(Led_3, LOW);
+    digitalWrite(Led_4, LOW);
+    digitalWrite(Led_5, LOW);
+    digitalWrite(Led_6, LOW);
+    delay(250);
+    digitalWrite(Led_1, HIGH);
+    digitalWrite(Led_2, HIGH);
+    digitalWrite(Led_3, HIGH);
+    digitalWrite(Led_4, HIGH);
+    digitalWrite(Led_5, HIGH);
+    digitalWrite(Led_6, HIGH);
+    delay(250);
+    digitalWrite(Led_1, LOW);
+    digitalWrite(Led_2, LOW);
+    digitalWrite(Led_3, LOW);
+    digitalWrite(Led_4, LOW);
+    digitalWrite(Led_5, LOW);
+    digitalWrite(Led_6, LOW);
+    delay(250);
+    digitalWrite(Led_1, HIGH);
+    digitalWrite(Led_2, HIGH);
+    digitalWrite(Led_3, HIGH);
+    digitalWrite(Led_4, HIGH);
+    digitalWrite(Led_5, HIGH);
+    digitalWrite(Led_6, HIGH);
+    delay(250);
+    digitalWrite(Led_1, LOW);
+    digitalWrite(Led_2, LOW);
+    digitalWrite(Led_3, LOW);
+    digitalWrite(Led_4, LOW);
+    digitalWrite(Led_5, LOW);
+    digitalWrite(Led_6, LOW);
+    delay(250);
+//----------------------------
     // LLenado Asendente
     digitalWrite(Led_1, HIGH);
     delay(500);
@@ -281,6 +339,44 @@ void loop() {
     digitalWrite(Led_6, HIGH);
     delay(500);
     digitalWrite(Led_6, LOW);
+    delay(500);
+    //-----------------------
+//---------------------------
+    digitalWrite(Led_1, HIGH);
+    delay(500);
+    digitalWrite(Led_1, LOW);
+    digitalWrite(Led_2, HIGH);
+    delay(500);
+    digitalWrite(Led_2, LOW);
+    digitalWrite(Led_3, HIGH);
+    delay(500);
+    digitalWrite(Led_3, LOW);
+    digitalWrite(Led_4, HIGH);
+    delay(500);
+    digitalWrite(Led_4, LOW);
+    digitalWrite(Led_5, HIGH);
+    delay(500);
+    digitalWrite(Led_5, LOW);
+    digitalWrite(Led_6, HIGH);
+    delay(500);
+    //------------------------
+    digitalWrite(Led_6, LOW);
+    digitalWrite(Led_5, HIGH);
+    delay(500);
+    digitalWrite(Led_5, LOW);
+    digitalWrite(Led_4, HIGH);
+    delay(500);
+    digitalWrite(Led_4, LOW);
+    digitalWrite(Led_3, HIGH);
+    delay(500);
+    digitalWrite(Led_3, LOW);
+    digitalWrite(Led_2, HIGH);
+    delay(500);
+    digitalWrite(Led_2, LOW);
+    digitalWrite(Led_1, HIGH);
+    delay(500);
+    digitalWrite(Led_1, LOW);
+    delay(500);
     //-----------------------
     Hora = Hora +1;
   }
