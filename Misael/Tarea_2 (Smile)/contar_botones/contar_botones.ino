@@ -42,5 +42,4 @@ void loop() {
   if (lectura == LOW && estadoBoton == true){
     estadoBoton = false;
   }
-
 }
