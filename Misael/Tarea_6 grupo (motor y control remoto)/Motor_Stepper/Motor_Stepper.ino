@@ -5,10 +5,10 @@ int RPM = 2048;
 //  X craqdos = X pasos
 
 // velocidad de vuelta (baja: 4 ->alta: 11) +11 se quema, -4 no se mueve
-int velocidad = 11;
+int velocidad = 10;
 
                 //RPM, pin1, pin2, pin3, pin4)
-Stepper myStepper(RPM, 8, 9, 10, 11);
+Stepper myStepper(RPM, 8, 10, 9, 11);
 
 void setup() {
   myStepper.setSpeed(velocidad);

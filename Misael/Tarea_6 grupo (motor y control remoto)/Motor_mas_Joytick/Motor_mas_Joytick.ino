@@ -20,7 +20,6 @@ void setup() {
   
   Serial.begin(9600);
   myStepper.setSpeed(velocidad);
-  
 }
 
 void loop() {
@@ -41,4 +40,3 @@ void loop() {
   Serial.println(lectura);
   delay(500);
 }
-
